@@ -18,6 +18,7 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
+  "homepage": "https://svtlife.github.io/mesto-react/",
   "eslintConfig": {
     "extends": [
       "react-app",
