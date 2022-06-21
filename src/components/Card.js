@@ -9,7 +9,7 @@ const Card = ({ card, onCardImage }) => {
         <h3 className="element__text">{card.name}</h3>
         <div className="element__like-group">
           <button className="element__like" type="button" aria-label="like"></button>
-          <span className="element__like-counter">0</span>
+          <span className="element__like-counter">{card.likes}</span>
         </div>
       </div>
     </article>
