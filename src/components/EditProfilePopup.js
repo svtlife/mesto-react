@@ -56,7 +56,7 @@ const EditProfilePopup = ({ isOpen, onClose, onUpdateUser }) => {
         maxLength="200"
         required
       />
-      <span className="popup__error profile-name-error"></span>
+      <span className="popup__error profile-job-error"></span>
     </PopupWithForm>
   );
 };

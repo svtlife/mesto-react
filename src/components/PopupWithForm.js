@@ -10,7 +10,7 @@ const PopupWithForm = ({ name, title, children, isOpen, onClose, onSubmit, butto
           noValidate
         >
           {children}
-          <input className="popup__save-btn" type="submit" name="submit" value={buttonText} />
+          <input className="popup__button" type="submit" name="submit" value={buttonText} />
         </form>
         <button onClick={onClose} className="popup__close" type="button"></button>
       </div>

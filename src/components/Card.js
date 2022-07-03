@@ -10,7 +10,7 @@ const Card = ({ card, onCardImage, onCardLike, onCardDelete }) => {
   const cardDeleteButtonClassName = `element__delete ${
     isOwn ? "element__deletevisible" : "element__delete_hidden"
   }`;
-  const cardLikeButtonClassName = `card__like-btn ${isLiked && "card__like-btn_active"}`;
+  const cardLikeButtonClassName = `element__like ${isLiked && "element__like_active"}`;
 
   const handleImageClick = () => onCardImage(card);
   const handleLikeClick = () => onCardLike(card);
