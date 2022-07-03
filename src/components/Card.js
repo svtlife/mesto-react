@@ -34,7 +34,7 @@ const Card = ({ card, onCardImage, onCardLike, onCardDelete }) => {
             type="button"
             aria-label="like"
           ></button>
-          <span className="card__like-counter">{card.likes.length}</span>
+          <span className="element__like-counter">{card.likes.length}</span>
         </div>
       </div>
     </article>
