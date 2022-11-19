@@ -1,9 +1,7 @@
-import logo from "../images/Logo.svg";
-
 const Header = () => {
   return (
     <header className="header">
-      <img src={logo} className="header__logo" alt="Место" />
+      <h1 className="header__logo">Choose your mesto</h1>
     </header>
   );
 };
